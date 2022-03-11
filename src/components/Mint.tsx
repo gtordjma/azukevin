@@ -29,7 +29,7 @@ export const Mint = () => {
     const mint = () => {
         const check = Number(totalMinted)
         const amount = (check <= 255 ? 0 : numberOfMint * 15000000000000000)
-        mintSend(1, { value: amount.toString() })
+        mintSend(numberOfMint, { value: amount.toString() })
     }
 
     const [numberOfMint, setNumberOfMint] = useState(5);
