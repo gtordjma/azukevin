@@ -36,38 +36,28 @@ button{
   background-color: #60c57b !important;
 }
 
-
 .button {
-  background-color: #000000 !important; /* Green */
+  background-color: black; /* Green */
   border: none;
-  color: #60c57b;
+  color: black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-    border-radius: 10px;
-    left: 50%;
-    margin: auto;
-    position: absolute;
-    top: 50%;
-    text-align: center;
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-}
-
-.root{
-  position: relative;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-family: 'Gilroy';
 }
 
 .mint-box {
   padding: 10px;
     z-index: 1;
   color: black;
-    -webkit-backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(90px);
+    backdrop-filter: blur(90px);
     flex-grow: 2;
     width: 300px;
-    border-radius: 25px;
     left: 50%;
     margin: auto;
     position: absolute;
@@ -75,12 +65,28 @@ button{
     text-align: center;
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
-  }
+}
 
 .mint-box > div > div {
-  padding-bottom: 50px;
 }
 
 .mint-box > div > p {
   padding-bottom: 30px;
+}
+
+.nbmint{
+  display: flex;
+  align-items: center;
+}
+
+.nbmint > button {
+  padding: 6px;
+  margin: 2px 12px;
+  font-family: 'Gilroy';
+}
+
+.nbmint > p {
+  padding: 6px;
+  margin: 2px 12px;
+  font-family: 'Gilroy';
 }
