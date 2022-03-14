@@ -56,7 +56,7 @@ export const Mint = () => {
 
                                 <div className='upbutton'>
                                     <p>Total Azukevin: 555</p>
-                                    <p>First 255 Free, 0.015ETH then</p><br /><br />
+                                    <p>First 255 Free, 0.005ETH NOW</p><br /><br />
                                     <p>{mintState.status === 'None' ? "" : "Mint status: " + mintState.status}</p>
                                     <p>{mintState.errorMessage}</p>
                                     <div className='nbmint'>
@@ -72,7 +72,7 @@ export const Mint = () => {
                             <div className='upbutton'>
                                 <p>Please connect your wallet</p><br /><br />
                                 <p>Total Azukevin: 555</p>
-                                <p>First 255 Free, 0.015ETH then</p>
+                                <p>First 255 Free, 0.005ETH NOW</p>
                             </div>
                         )
 
