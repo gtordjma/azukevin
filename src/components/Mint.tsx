@@ -28,7 +28,7 @@ export const Mint = () => {
 
     const mint = () => {
         const check = Number(totalMinted)
-        const amount = (check <= 255 ? 0 : numberOfMint * 15000000000000000)
+        const amount = (check <= 255 ? 0 : numberOfMint * 5000000000000000)
         mintSend(numberOfMint, { value: amount.toString() })
     }
 
